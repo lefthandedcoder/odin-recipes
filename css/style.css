@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    background-image: url(https://cdn-media.tigtagworld.com/images/stills/PRM00122_128142343_still_1600.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    padding: 2vw;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    text-align: center;
+}
+
+nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1vw 1vw;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+nav a:hover {
+    background-color: rgb(16, 153, 57);
+    color: black;
+}
+
+#logo {
+    width: 5vw;
+    margin: 0vw auto;
+}
+
+#main {
+    display: block;
+    padding: 2em;
+}
+
+#main ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#main a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.5vw 0.3vw;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+#main a:hover {
+    background-color: rgb(16, 153, 57);
+    color: black;
+}
+
+.img {
+    width: 30vw;
+    padding-bottom: 1vw;
+}
+
+#footer {
+    position: absolute;
+    font-size: 1.5vw;
+    bottom: 0;
+    width: 100%;
+    height: 3em;
+    background: white;
+    color: black;
+}
+
+@media (max-width: 700px) {
+    #main ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(100%);
+        list-style-type: none;
+        justify-content: space-around;
+        text-align: center;
+    }
+}
