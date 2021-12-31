@@ -4,68 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Lutefisk</title>
 </head>
 <body>
-    <h4><a href="/index.html">Home</a></h4>
-    <h1>Odin's Lutefisk</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="/index.html"><img id='logo' src="/images/odin-logo.png" alt="Stencil image of bearded, one-eyed odin"></a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://www.github.com/lefthandedcoder" target="_blank">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
     <figure>
-        <img src="https://www.thespruceeats.com/thmb/rQPh-3JE8cTq3rrV75DnUDV8TkY=/940x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1146488093-4b31a36f05c0434dbfc7227a260aa9a0.jpg" alt="dish of lutefisk with roasted red potatoes and mashed peas">
+        <img class="image" src="https://www.thespruceeats.com/thmb/rQPh-3JE8cTq3rrV75DnUDV8TkY=/940x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1146488093-4b31a36f05c0434dbfc7227a260aa9a0.jpg" alt="dish of lutefisk with roasted red potatoes and mashed peas">
         <figcaption>Lutefisk of Olde, Best Served Before Conquesting</figcaption>
     </figure>
-    <h2>Lutefisk with Red Potatoes and Mashed Peas</h3>
-    <h4>by Christian Dye, published December 27, 2021</h4>
-    <p>Lutefisk, a staple of those now passed on to Valhalla found upon any decent julebord buffet, is a hearty dish of dried whitefish that has been pickled in lye. Gelatinous in texture, this dish has helped the people of Odin survive many a harsh and bitter winter. After it has been soaked in cold water for roughly 2 weeks, this fish is best served with potatoes, mashed peas, white sauce, mustard, and bacon. And of course, no meal tastes quite as good without a heavy mug of mead and the laughter of a good friend. Drink up and dig in!</p>
+    <div class="description">
+        <h2>Lutefisk with Red Potatoes and Mashed Peas</h3>
+        <h4>by Christian Dye, published December 27, 2021</h4>
+        <p>Lutefisk, a staple of those now passed on to Valhalla found upon any decent julebord buffet, is a hearty dish of dried whitefish that has been pickled in lye. Gelatinous in texture, this dish has helped the people of Odin survive many a harsh and bitter winter. After it has been soaked in cold water for roughly 2 weeks, this fish is best served with potatoes, mashed peas, white sauce, mustard, and bacon. And of course, no meal tastes quite as good without a heavy mug of mead and the laughter of a good friend. Drink up and dig in!</p>
+    </div>
     
-    <h2>Ingredients</h2>
-    <p>Serves: 4-6</p>
-    <h4><a href="https://www.food.com/recipe/swedish-lutefisk-12617">Lutefisk</a></h4>
-    <ul>
-        <li>1 piece of dried lutefisk, cut into 6 inch lengths</li>
-        <li>2 Tbsp lye</li>
-    </ul>
-    <h4><a href="https://leitesculinaria.com/288244/recipes-roasted-potatoes-dill.html">Potatoes</a></h4>
-    <ul>
-        <li>1/4 c oil</li>
-        <li>2 Tbsp butter</li>
-        <li>5 garlic cloves, chopped</li>
-        <li>2 1/4 lbs. red potatoes</li>
-        <li>Salt and pepper, to taste</li>
-        <li>Fresh dill sprigs, to taste</li>
-    </ul>
-    <h4><a href="https://www.allrecipes.com/recipe/50281/mushy-peas-i/">Mashed Peas</a></h4>
-    <ul>
-        <li>10 oz. frozen peas</li>
-        <li>1/4 c heavy cream</li>
-        <li>Salt and pepper, to taste</li>
-    </ul>
+    
+    <div class="container">
+        <div id="ingredients">
+            <h2>Ingredients</h2>
+            <p>Serves: 4-6</p>
+            <h4><a href="https://www.food.com/recipe/swedish-lutefisk-12617">Lutefisk</a></h4>
+            <ul>
+                <li>1 piece of dried lutefisk, cut into 6 inch lengths</li>
+                <li>2 Tbsp lye</li>
+            </ul>
+            <h4><a href="https://leitesculinaria.com/288244/recipes-roasted-potatoes-dill.html">Potatoes</a></h4>
+            <ul>
+                <li>1/4 c oil</li>
+                <li>2 Tbsp butter</li>
+                <li>5 garlic cloves, chopped</li>
+                <li>2 1/4 lbs. red potatoes</li>
+                <li>Salt and pepper, to taste</li>
+                <li>Fresh dill sprigs, to taste</li>
+            </ul>
+            <h4><a href="https://www.allrecipes.com/recipe/50281/mushy-peas-i/">Mashed Peas</a></h4>
+            <ul>
+                <li>10 oz. frozen peas</li>
+                <li>1/4 c heavy cream</li>
+                <li>Salt and pepper, to taste</li>
+            </ul>
+        </div>
+        <div id="steps">
+            <h2>Steps</h2>
+            <h4>Lutefisk</h4>
+            <ol>
+                <li>Soak fish in clear water for 3 days.</li>
+                <li>Add lye into 1 gallon of water.</li>
+                <li>Soak fish for 3 days in solution.</li>
+                <li>Soak for 4 days in clear water, changing water once a day.</li>
+                <li>Tie fish loosely in a square of cheese cloth.</li>
+                <li>Drop in enamel pot of boiling water.</li>
+                <li>Cook for 10 minutes until well done.</li>
+                <li>Remove from cheese cloth, place on platter, and debone.</li>
+            </ol>
+            <h4>Potatoes</h4>
+            <ol>
+                <li>Preheat oven to 400°F.</li>
+                <li>In a large bowl, beat together oil, butter, garlic, and dill until combined.</li>
+                <li>Scrub potatoes clean and cut into 1-inch chunks.</li>
+                <li>Toss potatoes in bowl. Season with salt and pepper.</li>
+                <li>Arrange potatoes in a single layer on a foil-lined baking sheet. Roast, turning once or twice halfway through, until golden brown, 45 to 60 minutes.</li>
+                <li>Remove from oven, season again with salt and pepper to taste and garnish with dill.</li>
+            </ol>
+            <h4>Mashed Peas</h4>
+            <ol>
+                <li>Bring a pot of lightly salted water to boil. Add frozen peas, and cook for 3 minutes, until tender.</li>
+                <li>Drain peas and pour into large blender. Add cream, butter, salt and pepper, and process until blended. Season to taste and serve.</li>
+            </ol>
+        </div>
+    </div>
 
-    <h2>Steps</h2>
-    <h4>Lutefisk</h4>
-    <ol>
-        <li>Soak fish in clear water for 3 days.</li>
-        <li>Add lye into 1 gallon of water.</li>
-        <li>Soak fish for 3 days in solution.</li>
-        <li>Soak for 4 days in clear water, changing water once a day.</li>
-        <li>Tie fish loosely in a square of cheese cloth.</li>
-        <li>Drop in enamel pot of boiling water.</li>
-        <li>Cook for 10 minutes until well done.</li>
-        <li>Remove from cheese cloth, place on platter, and debone.</li>
-    </ol>
-    <h4>Potatoes</h4>
-    <ol>
-        <li>Preheat oven to 400°F.</li>
-        <li>In a large bowl, beat together oil, butter, garlic, and dill until combined.</li>
-        <li>Scrub potatoes clean and cut into 1-inch chunks.</li>
-        <li>Toss potatoes in bowl. Season with salt and pepper.</li>
-        <li>Arrange potatoes in a single layer on a foil-lined baking sheet. Roast, turning once or twice halfway through, until golden brown, 45 to 60 minutes.</li>
-        <li>Remove from oven, season again with salt and pepper to taste and garnish with dill.</li>
-    </ol>
-    <h4>Mashed Peas</h4>
-    <ol>
-        <li>Bring a pot of lightly salted water to boil. Add frozen peas, and cook for 3 minutes, until tender.</li>
-        <li>Drain peas and pour into large blender. Add cream, butter, salt and pepper, and process until blended. Season to taste and serve.</li>
-    </ol>
-
+    
+    <div style="margin-top:500px"></div>
+    <div id="footer">
+        <p>Copyright 2021 by Odin Recipes. All Rights Reserved.</p>
+    </div>
 </body>
 </html>
